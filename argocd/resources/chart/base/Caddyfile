@@ -1,0 +1,7 @@
+:80
+log {
+    output stdout
+    format json
+}
+root * /usr/share/caddy
+file_server
