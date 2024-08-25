@@ -14,7 +14,7 @@ spec:
     namespace: default
   syncPolicy:
     syncOptions:
-	- CreateNamespace=true #if you want to create ns 
+    - CreateNamespace=true #if you want to create ns 
     automated:
       selfHeal: true
       prune: true	
